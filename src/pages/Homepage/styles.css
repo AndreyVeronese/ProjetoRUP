@@ -1,0 +1,131 @@
+.home-container {
+    
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home-content{
+    height: calc(100vh - 8rem);
+    width: 100%;
+    
+}
+.home-title span{
+    margin-left: 1rem;
+    color: black;
+    
+}
+.home-title button{
+    width: 7rem;
+    height: 2rem;
+    padding: 4px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: white;
+    border-style: hidden;
+    margin: 0 10px;
+    background: black;
+}
+.home-title button:hover{
+    transform: scale(1.04);
+}
+.home-title {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    margin: 0 6rem;
+    width: calc(100vw - 9rem);
+}
+#imagem{
+    width: 100px;
+}
+.home-content-auction{
+    margin: 0 6rem;
+    border-radius: 1px;
+    background-color: #a9a9a9;
+    height: 100%;
+    overflow: auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: calc(100vw - 8rem);
+    margin-bottom: 3rem;
+
+}
+.home-auction-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 25rem;
+    width: 20rem;
+    padding: 1.5rem 3rem;
+    margin: 1.5rem;
+    background-color: #ffff;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform .2s;
+    border-radius: 5px;
+}
+.home-auction-card img{
+    width: 16rem;
+}
+.home-auction-card span{
+    font-size: 0.90rem;
+}
+.home-auction-card h4{
+    font-size: 1.5rem;
+}
+.home-auction-card:hover{
+    transform: scale(1.04);
+}
+.header-select-inputs{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    justify-content: center;
+    
+    margin: 0 6rem;
+    width: calc(100vw - 9rem);
+    
+}
+.header-select-inputs select{
+    width: 25%;
+    height: 55%;
+    margin: 0 15px;
+    border-radius: 5px 5px 5px 5px;
+    
+    
+}
+.filter-button{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+    width: calc(100vw - 9rem);    
+    
+    
+}
+.filter-button button{
+    width: 10rem;
+    height: 2rem;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: white;
+    border-style: hidden;
+    background: black;
+}
+
